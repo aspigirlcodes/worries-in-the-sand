@@ -72,7 +72,7 @@ function onMouseDown(event) {
     worryPath.strokeColor = '#c1b460';
     worryPath.strokeWidth = 10;
     worryPath.strokeCap = 'round';
-
+    worryPath.add(event.point);
   }
 }
 
